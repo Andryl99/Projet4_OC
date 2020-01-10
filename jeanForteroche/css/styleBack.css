@@ -1,0 +1,109 @@
+body
+{
+    background-image: url(../pictures/background.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:rgba(0,0,0,0.7);
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+    border-radius:5px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+    background-color:rgba(200,200,200,0.8);
+    border-radius:5px;
+}
+#main-title
+{
+    font-family: Arial;
+    color: rgb(125,81,71);
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+}
+#adminSubMenu
+{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+a
+{
+    text-decoration: none!important;
+    color: rgb(203, 141,127)!important;
+    text-shadow: 1px 1px 2px black;
+    background-color:white;
+}
+a:hover
+{
+    text-decoration: underline rgb(203, 141, 127)!important;
+}
+.card
+{
+    width:50rem;
+    margin:auto;
+}
+@media screen and (max-width: 750px)
+{
+    .card
+    {
+        width:100%;
+    }
+}
+.specSeparator
+{
+    color:white;
+    font-size: 20px;
+}
+.blockAddComm
+{
+    border:2px black solid;
+    text-align: center;
+}
+footer
+{
+    text-align:center;
+    background-color: rgba(0,0,0,0.5);
+}
+footer h3
+{
+    border-radius:5px;
+    background-color:rgba(0,0,0,0);
+}
+#logo
+{
+    width: 80px;
+    height: auto;
+    margin:10px;
+}
+header
+{
+    text-align: center;
+    background-color:rgba(0,0,0,0.8);
+}
+header nav
+{
+    text-align: center;
+}
+header nav a
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.blockAddPost
+{
+    margin:auto;
+    text-align: center; 
+}
